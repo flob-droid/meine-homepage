@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Private Homepage von Florian">
+    <title>Florian Alexander Baumgartner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #51a24b 100%);
+            color: white;
+            padding: 2rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #667eea;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        section p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .social-links {
+            margin: 1rem 0;
+        }
+
+        .social-links a {
+            color: #667eea;
+            margin: 0 1rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #764ba2;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            nav ul {
+                gap: 1rem;
+                font-size: 0.9rem;
+            }
+
+            section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Florian Alexander Baumgartner</h1>
+        <p>Willkommen auf meiner persönlichen Homepage</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Über mich</a></li>
+            <li><a href="#projects">Projekte</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Willkommen</h2>
+            <p>Hallo! Ich bin Florian und dies ist meine persönliche Homepage. Hier findest du Informationen über mich, meine Projekte und wie du mich kontaktieren kannst.</p>
+        </section>
+
+        <section id="about">
+            <h2>Über mich</h2>
+            <p>Ich mag den Sommer und ich interessiere mich für das römische Reich.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Meine Projekte auf Scratch</h2>
+            <p>Ich heiße auf Scratch Florian Lisa Maria und habe viele Spiele verbessert oder Ballfangspiele Programmiert.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Florian Alexander Baumgartner. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
